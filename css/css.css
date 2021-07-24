@@ -1,0 +1,685 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&family=Prompt:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&family=Prompt:wght@200;300&family=Roboto+Mono:wght@100;200;300;400&display=swap");
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeavent-Italic.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-Italic.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeavent-Bold.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-Bold.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Black It";
+  src: url("../fonts/subset-DBHeavent-BlackIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-BlackIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-BlackIt.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Light It";
+  src: url("../fonts/subset-DBHeavent-LightIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-LightIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-LightIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeaventt-Light.woff2") format("woff2"),
+    url("../fonts/subset-DBHeaventt-Light.woff") format("woff"),
+    url("../fonts/subset-DBHeaventt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeavent-Black.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-Black.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Bold It";
+  src: url("../fonts/subset-DBHeavent-BoldIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-BoldIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-BoldIt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Med It";
+  src: url("../fonts/subset-DBHeavent-MedIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-MedIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-MedIt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Med";
+  src: url("../fonts/subset-DBHeavent-Med.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-Med.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-Med.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent UltraLi It";
+  src: url("../fonts/subset-DBHeavent-UltraLiIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-UltraLiIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-UltraLiIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent UltraLi";
+  src: url("../fonts/subset-DBHeavent-UltraLi.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-UltraLi.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-UltraLi.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeavent.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent.woff") format("woff"),
+    url("../fonts/subset-DBHeavent.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent Thin It";
+  src: url("../fonts/subset-DBHeavent-ThinIt.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-ThinIt.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-ThinIt.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DB Heavent";
+  src: url("../fonts/subset-DBHeavent-Thin.woff2") format("woff2"),
+    url("../fonts/subset-DBHeavent-Thin.woff") format("woff"),
+    url("../fonts/subset-DBHeavent-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+body {
+  font-family: "Prompt", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.forTitle {
+  font-family: "DB Heavent";
+}
+.container-web {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.topContainer {
+  width: 100%;
+  background-image: url("../images/Background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+.topContainer.congraPage {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.mainForm {
+  width: 90%;
+  max-width: 1600px;
+  position: relative;
+  /* background-image: url("../images/bgBorderPaper.png"); */
+  /* background-repeat: repeat; */
+  margin: 0 auto;
+  margin-top: -5rem;
+  min-height: 600px;
+  border-radius: 25px;
+  /* padding: 2.4rem; */
+  /* box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2); */
+}
+.ImgFunction {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.TextAndBarCode {
+  margin-top: 6rem;
+}
+.barCode {
+  position: absolute;
+  bottom: 110px;
+  right: 270px;
+  width: 15%;
+  max-width: 240px;
+}
+.topContainer.congraPage .mainForm {
+  max-width: 950px;
+  margin-top: 0;
+}
+
+.headerPaperClip {
+  width: 100%;
+  /* position: absolute; */
+  /* top: -18px; */
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bgLogoHeaderTop{
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+  padding: 0;
+}
+.paperClip {
+  /* background-image: url("../images/paperClip.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  width: 100%;
+  max-width: 100%;
+  height: 75px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0e4f50;
+  background-color: #0e4f50;
+  /* padding-top: 40px; */
+}
+.headerPaperClip{
+  position: relative;
+}
+.headerPaperClip::after{
+  position: absolute;
+    content: "";
+    /* top: 15%; */
+    bottom: 0px;
+    /* right: -15px; */
+    width: 400px;
+    height: 5px;
+    background-color: #f16d23;
+    border: 2px solid #f16d23;
+}
+/* .headerPaperClip{
+  position: relative;
+  content: "";   
+  top: 0;   
+  left: 0;   
+  width: 100px;   
+  border-left: 1px solid #f16d23;
+} */
+.paperClip .titleForm,
+.paperClip .titleForm span {
+  font-family: "DB Heavent";
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.paperClip .titleForm {
+  color: #fff;
+}
+/* .paperClip .titleForm span {
+  color: #f16d23;
+}  */
+.TextAppMLT,
+.TextAppMLT h3,
+.TextAppMLT span {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.TextAppMLT h3 {
+  color: #0e4f50;
+}
+.TextAppMLT span {
+  color: #f16d23;
+}
+.TextAppMLT p {
+  color: #525252;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.topContainer {
+  background: #fff;
+  border-radius: 0;
+  width: 100%;
+}
+.ImgLogoHeaderTop {
+  padding: 30px;
+}
+
+.FormRigisterYN {
+  background-color: #efefef;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.FormRigisterYN .form-group .RegisterOnMLT {
+  padding-top: 0.5rem;
+}
+.FormRigisterYN .form-group .SubmitRegisterTop {
+  border-radius: 5px;
+  background-color: #f16d23 !important;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 20px 5px 20px;
+  margin: 0;
+  text-transform: none;
+}
+.FormRigisterYN .form-group{
+  margin-bottom: 0 !important;
+}
+.FormRigisterYN .form-group a {
+  color: #0e4f50;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.FormRigisterYN .form-group label {
+  color: #0e4f50;
+}
+
+.brSpace {
+  height: 10px;
+}
+
+.FormWorkRegister {
+  background: #b7cece;
+  padding: 1rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.FormWorkRegister .jobApply {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e4f50;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+.FormWorkRegister .ChoosePlease {
+  padding: 5px;
+  margin-top: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #115d5e;
+  width: 90% !important;
+  margin-left: 1.5rem;
+}
+
+.bodyRigister {
+  border: 1px solid #a1a1a1;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mainForm .bodyForm {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  padding-top: 8rem;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.mainForm.-Login {
+  margin-top: 1rem !important;
+}
+.topContainer.congraPage .mainForm .bodyForm {
+  padding: 0;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.col-form-label {
+  color: #115d5e;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.custom-select,
+.form-control {
+  border: 0.5px solid #115d5e;
+}
+
+.custom-select:focus,
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem rgb(17 93 94 / 50%);
+}
+
+.custom-radio .custom-control-label {
+  font-weight: 300;
+  color: #115d5e;
+  font-size: 18px;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #115d5e;
+  border-color: #115d5e;
+}
+.custom-control-input:checked ~ .custom-control-label.privacyTextLabel::before {
+  background-color: #ff9600;
+  border-color: #ff9600;
+}
+.privacyTextLabel {
+  color: #ff9600;
+  font-size: 18px;
+}
+
+.link_modal {
+  color: #ff9600 !important;
+  font-size: 18px;
+  text-decoration: underline !important;
+}
+
+.btn-register,
+.btn-register:hover {
+  background-color: #115d5e;
+  color: #ffffff;
+  font-size: 26px;
+  border-radius: 4px;
+  padding: 5px 40px 5px 40px;
+}
+.bgFooterDoctor {
+  background-image: url(../images/benner-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.passionImage {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  margin-left: 1rem;
+}
+.footer {
+  background-color: #115d5e;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.text-footer {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.footerApp p {
+  color: #0e4f50;
+  font-size: 22px;
+  padding-left: 88px;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+}
+.footerCopyright {
+  background-color: #0e4f50;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  /* text-align: center; */
+}
+.footerCopyright p {
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-left: 95px;
+  font-size: 18px;
+  font-family: "Prompt", "sans-serif", "Roboto Mono";
+  font-weight: 600;
+}
+.boxAppMobile {
+  border-top: 3px solid #115d5e;
+  background-image: url("../images/bgMobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+.ribbon1 {
+  margin-left: -70px;
+}
+.mobileImage {
+  width: 300px;
+  position: absolute;
+  bottom: 70px;
+  right: 60px;
+  width: 20%;
+  max-width: 300px;
+}
+.boxGray {
+  background-color: #d2d2d2;
+  height: 60px;
+  width: 100%;
+}
+.ribbon2 {
+  margin-right: -15px;
+  margin-top: -5px;
+}
+.txtTitleFunction {
+  color: #115d5e;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.txtTitleFunction img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0.2rem;
+}
+.txtDetailFunction {
+  font-size: 18px;
+}
+.txtDetailFunction span {
+  font-size: 18px;
+  font-style: italic;
+  color: #0e4f50;
+}
+.txtTitleFunction2 {
+  color: #f16d23;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.txtDetailFunction2 {
+  font-size: 18px;
+  color: #f1b423;
+}
+.txtTitleFunction-right {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.txtTitleFunction-right::before {
+  position: relative;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 555px;
+  border-left: 1px solid #ebebeb;
+}
+.hrGray {
+  border: 5px solid #dddcdb;
+}
+.ImgLogoTextWelcome {
+  text-align: left !important;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .paperClip .titleForm,
+  .paperClip .titleForm span {
+    font-size: 36px;
+  }
+  /* .paperClip {
+    height: 130px;
+  } */
+  .mainForm .bodyForm {
+    padding-top: 6.5rem;
+  }
+  .pen {
+    right: 0;
+    bottom: -15px;
+    width: 18%;
+  }
+  .txtTitleFunction-right::before {
+    display: none;
+  }
+
+  .SubmitRegisterTop {
+    width: 100%;
+  }
+  .jobApply{
+    font-size: 18px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainForm {
+    margin-top: -2rem;
+    padding: 0.75rem;
+  }
+  .paperClip .titleForm,
+  .paperClip .titleForm span {
+    font-size: 28px;
+  }
+  .paperClip {
+    width: 100%;
+  }
+  .TextAppMLT, .TextAppMLT h3, .TextAppMLT span{
+    font-size: 18px;
+  }
+  .TextAppMLT p{
+    font-size: 14px;
+  }
+  .jobApply{
+    font-size: 18px !important;
+    margin-bottom: 0 !important;
+  }
+  .headerPaperClip {
+    top: -11px;
+  }
+  .mainForm .bodyForm {
+    padding: 0.75rem;
+    padding-top: 6rem;
+  }
+  .col-form-label,
+  .custom-select,
+  .form-control,
+  .custom-radio .custom-control-label,
+  .link_modal,
+  .privacyTextLabel {
+    font-size: 16px;
+  }
+  .topContainer.congraPage .mainForm .bodyForm {
+    padding-top: 4rem;
+  }
+  .topContainer.congraPage {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .ribbon1 {
+    margin-left: -15px;
+  }
+  .pen {
+    right: 0;
+    bottom: -15px;
+    width: 25%;
+  }
+  .txtTitleFunction-right::before {
+    display: none;
+  }
+
+  .ImgLogoTextWelcome {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center !important;
+  }
+  .TextAndBarCode {
+    margin-top: 2rem;
+  }
+  .footerApp p {
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .footerCopyright p {
+    padding-left: 25px;
+    font-size: 16px;
+  }
+  .barCode-2 {
+    margin-top: 0.5rem;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+
+  .SubmitRegisterTop {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 575.98px) {
+  .FormRigisterYN .form-control {
+    margin-top: 1rem;
+    padding-right: 3rem;
+  }
+  .FormRigisterYN button {
+    margin-top: 1rem !important;
+  }
+}
+
+@media (min-width: 576px){
+  .pr-sm-5, .px-sm-5{
+  padding-right: .5rem !important;
+
+  }
+}
