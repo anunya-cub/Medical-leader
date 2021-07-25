@@ -211,12 +211,15 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-.bgLogoHeaderTop{
-  background-image: url('../images/Background.jpg');
+.bgLogoHeaderTop {
+  background-image: url("../images/Background.jpg");
   background-size: cover;
-
 }
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
   padding: 0;
 }
 .paperClip {
@@ -234,19 +237,19 @@ body {
   background-color: #0e4f50;
   /* padding-top: 40px; */
 }
-.headerPaperClip{
+.headerPaperClip {
   position: relative;
 }
-.headerPaperClip::after{
+.headerPaperClip::after {
   position: absolute;
-    content: "";
-    /* top: 15%; */
-    bottom: 0px;
-    /* right: -15px; */
-    width: 400px;
-    height: 5px;
-    background-color: #f16d23;
-    border: 2px solid #f16d23;
+  content: "";
+  /* top: 15%; */
+  bottom: 0px;
+  /* right: -15px; */
+  width: 400px;
+  height: 5px;
+  background-color: #f16d23;
+  border: 2px solid #f16d23;
 }
 /* .headerPaperClip{
   position: relative;
@@ -319,7 +322,7 @@ body {
   margin: 0;
   text-transform: none;
 }
-.FormRigisterYN .form-group{
+.FormRigisterYN .form-group {
   margin-bottom: 0 !important;
 }
 .FormRigisterYN .form-group a {
@@ -577,9 +580,19 @@ body {
   .SubmitRegisterTop {
     width: 100%;
   }
-  .jobApply{
+  .jobApply {
     font-size: 18px !important;
     margin-bottom: 0 !important;
+  }
+  .barCode {
+    right: 190px !important;
+    width: 70px;
+    bottom: 100px;
+  }
+  .mobileImage {
+    right: 60px !important;
+    width: 120px !important;
+    bottom: 70px;
   }
 }
 
@@ -595,13 +608,15 @@ body {
   .paperClip {
     width: 100%;
   }
-  .TextAppMLT, .TextAppMLT h3, .TextAppMLT span{
+  .TextAppMLT,
+  .TextAppMLT h3,
+  .TextAppMLT span {
     font-size: 18px;
   }
-  .TextAppMLT p{
+  .TextAppMLT p {
     font-size: 14px;
   }
-  .jobApply{
+  .jobApply {
     font-size: 18px !important;
     margin-bottom: 0 !important;
   }
@@ -647,6 +662,7 @@ body {
   .TextAndBarCode {
     margin-top: 2rem;
   }
+
   .footerApp p {
     padding-left: 20px;
     font-size: 18px;
@@ -664,8 +680,13 @@ body {
   .SubmitRegisterTop {
     width: 100%;
   }
-  
 }
+
+/* @media screen and (min-width: 767px) {
+  .barCode{
+    right: 300px !important;
+  }
+} */
 
 @media screen and (max-width: 575.98px) {
   .FormRigisterYN .form-control {
@@ -677,9 +698,9 @@ body {
   }
 }
 
-@media (min-width: 576px){
-  .pr-sm-5, .px-sm-5{
-  padding-right: .5rem !important;
-
+@media (min-width: 576px) {
+  .pr-sm-5,
+  .px-sm-5 {
+    padding-right: 0.5rem !important;
   }
 }
