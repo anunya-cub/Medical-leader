@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Medical Leader</title>
+    <title>Login New</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -23,10 +23,12 @@
     />
     <link href="./css/css.css" rel="stylesheet" />
   </head>
+  
   <body>
     <div class="container-web">
       <div class="topContainer">
-        <picture>
+
+        <!-- <picture>
           <source
             srcset="./images/banner.webp"
             type="image/webp"
@@ -38,20 +40,117 @@
             class="img-fluid w-100"
           />
           <img src="./images/banner.jpg" class="img-fluid w-100" />
-        </picture>
-        <div class="mainForm">
-          <div class="headerPaperClip">
-            <div class="paperClip">
-              <p class="titleForm">โปรดกรอกข้อมูลเพื่อ<span>ลงทะเบียน</span></p>
+        </picture> -->
+
+        <div class="text-center bgLogoHeaderTop">
+            <picture >
+                <source
+                  srcset="./images/logoHeader.png"
+                  type="image/webp"
+                  class="img-fluid"
+                />
+                <source
+                  srcset="./images/logoHeader.png"
+                  type="image/png"
+                  class="img-fluid"
+                />
+                <img src="./images/logoHeader.png" class="img-fluid ImgLogoHeaderTop" />
+              </picture>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="headerPaperClip">
+                <div class="paperClip">
+                  <p class="titleForm">โปรดกรอกข้อมูลเพื่อ<span>ลงทะเบียน</span></p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="bodyForm">
+
+        <div class="mainForm -Login">
+            <div class="FormAppMLT text-center">
+                <div class="TextAppMLT">
+                    <h3>โปรดสมัครสมาชิกเข้าใช้งาน<span>แอปพลิเคชั่น</span>MLT</h3>
+                    <p>เพื่อรับชมงานประชุมวิชาการและทำแบบทดสอบเก็บหน่วยกิต ไม่มีค่าใช้จ่ายตลอดการใช้งาน</p>
+                </div>
+            </div>
+
+            <!-- Form Login -->
+            <div class="FormRigisterYN">
+                    <form class="form-group px-5">  
+                        <div class="row">
+                            <div class="col-lg-auto col-md-12 ">
+                                <input type="checkbox" id="autoSizingCheck2">
+                                <label class="RegisterOnMLT" for="autoSizingCheck2">เป็นสมาชิก MLT อยู่แล้ว</label>
+                            </div>
+                            <div class="col-lg-auto col-md-12 pb-md-3  pb-sm-3 pr-sm-5">
+                                <input type="text" class="form-control" placeholder="Login: อีเมล *">
+                            </div>
+                            <div class="col-lg-auto col-md-12 pb-md-3  pb-sm-3 pr-sm-5">
+                                <input type="text" class="form-control" placeholder="Password *">
+                            </div>
+                            <div class="col-lg-auto col-md-12 pb-md-3  pb-sm-3 pr-sm-5 text-center">
+                                <button type="submit" class="btn btn-primary SubmitRegisterTop">Register</button>
+                            </div>
+                        </div>
+                      </form>
+                      
+                      <form class="form-group px-5">
+                          <div class="row">
+                              <div class="col-auto">
+                                    <a href="#">Privacy policy</a>
+                              </div>
+                              <div class="col-auto">
+                                <input type="checkbox" id="autoSizingCheck2">
+                                <label for="autoSizingCheck2">Read Terms of service and agree to this content</label>
+                            </div>
+                              <div class="col-auto">
+                                    <a href="#">Terms of service</a>
+                              </div>
+                              <div class="col-auto">
+                                <input type="checkbox" id="autoSizingCheck2">
+                                <label for="autoSizingCheck2">Read privacy policy and agree to this content</label>
+                            </div>
+                          </div>
+                      </form>
+             </div>
+
+             <div class="brSpace"></div>
+
+             <!-- งานที่ต้องการสมัคร -->
+             <div class="FormWorkRegister">
+                 <form action="">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center">
+                            <label
+                          for=""
+                          class="
+                          jobApply"
+                          >งานที่ต้องการสมัคร (โปรดเลือก)*</label
+                        >
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <select id="" class="ChoosePlease">
+                                <option value="">โปรดเลือก</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                 </form>
+                
+             </div>
+
+             <div class="brSpace"></div>
+             
+          <div class="bodyRigister">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-12 col-md-11 col-lg-10 col-xl-9">
                   <div class="row">
                     <div class="col-12">
-                      <div class="form-group row">
+
+                      <!-- <div class="form-group row">
                         <label
                           for="selectWork"
                           class="col-12 col-lg-5 col-form-label"
@@ -71,7 +170,8 @@
                             <option value="4">Three</option>
                           </select>
                         </div>
-                      </div>
+                      </div> -->
+
                       <div class="form-group row">
                         <label class="col-12 col-lg-2 col-form-label"
                           >ชื่อ-สกุล*</label
@@ -98,7 +198,8 @@
                           />
                         </div>
                       </div>
-                      <div class="form-group row">
+
+                      <!-- <div class="form-group row">
                         <label class="col-12 col-lg-2 col-form-label"
                           >อีเมล*</label
                         >
@@ -109,7 +210,8 @@
                             type="email"
                           />
                         </div>
-                      </div>
+                      </div> -->
+                      
                       <div class="form-group row">
                         <label class="col-12 col-lg-2 col-form-label"
                           >เบอร์โทร*</label
@@ -338,216 +440,16 @@
                           />
                         </div>
                       </div>
-                      <div class="form-group row">
-                        <label
-                          class="col-12 col-lg-5 col-xl-4 col-form-label align-items-start"
-                          >ท่านทราบข่าวสารนี้จากแหล่งใด</label
-                        >
-                        <div class="col-12 col-lg-6 col-xl-6 pl-5 pl-lg-2">
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news1"
-                              name="news"
-                              value="1"
-                            />
-                            <label class="custom-control-label" for="news1"
-                              >Facebook</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news2"
-                              name="news"
-                              value="2"
-                            />
-                            <label class="custom-control-label" for="news2"
-                              >เว็บไซต์</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news3"
-                              name="news"
-                              value="3"
-                            />
-                            <label class="custom-control-label" for="news3"
-                              >แอปพลิเคชั่น MLT</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news4"
-                              name="news"
-                              value="4"
-                            />
-                            <label class="custom-control-label" for="news4"
-                              >กลุ่มกิจกรรมใน Facebook</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news5"
-                              name="news"
-                              value="5"
-                            />
-                            <label class="custom-control-label" for="news5"
-                              >เพื่อน / เพื่อนร่วมงาน</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news6"
-                              name="news"
-                              value="6"
-                            />
-                            <label class="custom-control-label" for="news6"
-                              >Email</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news7"
-                              name="news"
-                              value="7"
-                            />
-                            <label class="custom-control-label" for="news7"
-                              >Line OA</label
-                            >
-                          </div>
-                          <div class="custom-control custom-radio mb-2">
-                            <input
-                              type="radio"
-                              class="custom-control-input"
-                              id="news8"
-                              name="news"
-                              value="8"
-                            />
-                            <label class="custom-control-label" for="news8"
-                              >อื่นๆ</label
-                            >
-                          </div>
-                          <input
-                            id="other_news"
-                            class="form-control d-none"
-                            placeholder="กรุณาระบุ"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label class="col-12 col-form-label mb-2"
-                          >ระบุคำถามที่ท่านอยากถามวิทยากร
-                          (ถ้าไม่มีโปรดข้าม)</label
-                        >
-                        <div class="col-12">
-                          <input
-                            class="form-control"
-                            placeholder="ระบุคำถามที่ท่านอยากถามวิทยากร"
-                            type="text"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label class="col-12 col-lg-4 col-xl-3 col-form-label"
-                          >Login: อีเมล *</label
-                        >
-                        <div class="col-12 col-lg-6">
-                          <input
-                            class="form-control"
-                            placeholder="อีเมลเดียวกับด้านบน"
-                            type="email"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label class="col-12 col-lg-4 col-xl-3 col-form-label"
-                          >Password *</label
-                        >
-                        <div class="col-12 col-lg-6">
-                          <input
-                            class="form-control"
-                            placeholder="วัน เดือน ปีเกิด เช่น 08/12/2021"
-                            type="password"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-group row mt-4">
-                        <label
-                          class="col-12 col-lg-4 col-xl-3 col-form-label"
-                        ></label>
-                        <div class="col-12 col-lg-8">
-                          <a
-                            class="link_modal"
-                            data-toggle="modal"
-                            data-target="#privacyModal"
-                            >Privacy policy</a
-                          >
-                          <div class="custom-control custom-checkbox">
-                            <input
-                              type="checkbox"
-                              class="custom-control-input"
-                              id="checkPrivacy"
-                            />
-                            <label
-                              class="custom-control-label privacyTextLabel"
-                              for="checkPrivacy"
-                              >Read privacy policy and agree to this
-                              content</label
-                            >
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label
-                          class="col-12 col-lg-4 col-xl-3 col-form-label"
-                        ></label>
-                        <div class="col-12 col-lg-8">
-                          <a
-                            class="link_modal"
-                            data-toggle="modal"
-                            data-target="#termModal"
-                            >Terms of service</a
-                          >
-                          <div class="custom-control custom-checkbox">
-                            <input
-                              type="checkbox"
-                              class="custom-control-input"
-                              id="checkTerm"
-                            />
-                            <label
-                              class="custom-control-label privacyTextLabel"
-                              for="checkTerm"
-                              >Read Term of service and agree to this
-                              content</label
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 text-center">
-                      <button onclick="submitReg()" class="btn btn-register">
-                        กดลงทะเบียน CPE
-                      </button>
-                    </div>
+
+                     
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <picture>
+
+          
+          <!-- <picture>
             <source
               srcset="./images/pen.webp"
               type="image/webp"
@@ -559,22 +461,193 @@
               class="img-fluid"
             />
             <img src="./images/pen.png" class="img-fluid pen" />
-          </picture>
+          </picture> -->
         </div>
-        <div class="w-100 py-5 text-center">
+
+
+
+
+
+<div class="container">
+    <div class="form-group row mt-3">
+        <label
+          class="col-12 col-lg-4 col-xl-4 col-form-label align-items-start"
+          >ท่านทราบข่าวสารนี้จากแหล่งใด</label
+        >
+        <div class="col-12 col-lg-4 col-xl-4 pl-5 pl-lg-2">
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="radio"
+              class="custom-control-input"
+              id="news1"
+              name="news"
+              value="1"
+            />
+            <label class="custom-control-label" for="news1"
+              >Facebook</label
+            >
+          </div>
+
+
+
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news2"
+              name="news"
+              value="2"
+            />
+            <label class="custom-control-label" for="news2"
+              >Facebook Group</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news3"
+              name="news"
+              value="3"
+            />
+            <label class="custom-control-label" for="news3"
+              >Blockdit</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news4"
+              name="news"
+              value="4"
+            />
+            <label class="custom-control-label" for="news4"
+              >Instagram</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news5"
+              name="news"
+              value="5"
+            />
+            <label class="custom-control-label" for="news5"
+              >Line Official</label
+            >
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 pl-5 pl-lg-2">
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news6"
+              name="news"
+              value="6"
+            />
+            <label class="custom-control-label" for="news6"
+              >Line Group</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news7"
+              name="news"
+              value="7"
+            />
+            <label class="custom-control-label" for="news7"
+              >Friends/Colleagues</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news8"
+              name="news"
+              value="8"
+            />
+            <label class="custom-control-label" for="news8"
+              >CCPE Webiste</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news8"
+              name="news"
+              value="8"
+            />
+            <label class="custom-control-label" for="news8"
+              >MLT Application/Website/Email</label
+            >
+          </div>
+          <div class="custom-control custom-radio mb-2">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="news8"
+              name="news"
+              value="8"
+            />
+            <label class="custom-control-label" for="news8"
+              >อื่นๆ</label
+            >
+          </div>
+        </div>
+
+          <input
+            id="other_news"
+            class="form-control d-none"
+            placeholder="กรุณาระบุ"
+          />
+
+      </div>
+      <div class="form-group row">
+        <label class="col-12 col-form-label mb-2"
+          >ระบุคำถามที่ท่านอยากถามวิทยากร
+          (ถ้าไม่มีโปรดข้าม)</label
+        >
+        <div class="col-12">
+          <input
+            class="form-control"
+            placeholder="ระบุคำถามที่ท่านอยากถามวิทยากร"
+            type="text"
+          />
+        </div>
+      </div>
+      
+    <div class="col-12 text-center">
+      <button onclick="submitReg()" class="btn btn-register">
+        ลงทะเบียน
+      </button>
+    </div>
+</div>
+</div>
+
+
+
+
+        <div class="w-100 py-5 mt-5 text-left bgFooterDoctor">
           <picture>
             <source
-              srcset="./images/passion.webp"
+              srcset="./images/Enchance.png"
               type="image/webp"
               class="passionImage"
             />
             <source
-              srcset="./images/passion.png"
+              srcset="./images/Enchance.png"
               type="image/png"
               class="passionImage"
             />
             <img
-              src="./images/passion.png"
+              src="./images/Enchance.png"
               class="passionImage"
               alt="Enhance patients' live through aiding HCPs in learning, reducing medical distance and pushing the industry forward"
             />
@@ -642,6 +715,7 @@
         <p>Empowered by ASEC-Frontier [Thailand] Co.,Ltd.</p>
       </div>
     </div>
+
     <div
       class="modal fade"
       id="privacyModal"
@@ -676,6 +750,7 @@
         </div>
       </div>
     </div>
+
     <div
       class="modal fade"
       id="termModal"
@@ -711,6 +786,7 @@
       </div>
     </div>
   </body>
+
   <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
